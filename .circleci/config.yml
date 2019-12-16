@@ -6,3 +6,10 @@
       steps:
         - checkout # check out the code in the project directory
         - run: echo "hello circle" # run the `echo` command
+        - run:
+          name: Print the current date and time
+          command: date
+        - run:
+          name: See if rsync is available
+          command: rsync
+          
