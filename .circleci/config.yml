@@ -9,7 +9,7 @@
         - run:
             name: Print the current date and time
             command: date
-        - run:
-            name: See if rsync is available
-            command: rsync
+        # - run:
+        #     name: See if rsync is available
+        #     command: rsync
           
